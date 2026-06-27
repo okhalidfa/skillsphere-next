@@ -10,7 +10,7 @@ const LoginPage = () => {
 	return (
 		<Suspense fallback={<Loader label='Loading...' />}>
 			<LoginForm />
-		</Suspense>
+		</Suspense  >
 	)
 }
 
