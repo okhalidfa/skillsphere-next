@@ -31,6 +31,7 @@ const Navbar = () => {
 	const { data: session, isPending } = authClient.useSession()
 
 	const user = session?.user
+	console.log("Navbar Image:", user?.image)
 
 	/* =========================
 	   LOGOUT
@@ -127,13 +128,11 @@ const Navbar = () => {
 
 							{/* Avatar */}
 							<Link href='/profile'>
-								<Avatar
-									src={user.image || ''}
-									name={user.name || 'User'}
-									size='sm'
-									color='primary'
-									className='cursor-pointer ring-2 ring-border transition-transform hover:scale-105'
-								/>
+								    <img
+                                      src={user.image}
+                                      alt={user.name}
+                                      className="h-10 w-10 rounded-full object-cover border"
+                                    />
 							</Link>
 
 							{/* Logout */}
