@@ -104,9 +104,7 @@ const Navbar = () => {
 				{/* Right Side */}
 				<div className='flex items-center gap-3'>
 					{/* Theme Toggle — always visible */}
-					<div className='rounded-full border border-border bg-secondary p-1'>
-						<ThemeToggler />
-					</div>
+					<ThemeToggler />
 
 					{/* Loading skeleton */}
 					{isPending && (
