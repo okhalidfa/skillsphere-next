@@ -16,7 +16,7 @@ const sections = [
 		body: 'Course content, including videos, curriculum, and materials, is provided for personal, non-commercial learning purposes and may not be redistributed without permission.',
 	},
 	{
-		title: '5. Changes to the Service',
+		title: '5. Changes to the Service'   ,
 		body: 'We may update, modify, or discontinue parts of SkillSphere at any time. We will try to give notice of significant changes where possible.',
 	},
 	{
