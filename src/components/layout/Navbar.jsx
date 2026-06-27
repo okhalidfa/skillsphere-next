@@ -131,7 +131,6 @@ const Navbar = () => {
 									src={user.image || ''}
 									name={user.name || 'User'}
 									size='sm'
-									isBordered
 									color='primary'
 									className='cursor-pointer ring-2 ring-border transition-transform hover:scale-105'
 								/>
@@ -178,7 +177,6 @@ const Navbar = () => {
 								src={user.image || ''}
 								name={user.name || 'User'}
 								size='sm'
-								isBordered
 								color='primary'
 								className='cursor-pointer ring-2 ring-border transition-transform hover:scale-105'
 							/>

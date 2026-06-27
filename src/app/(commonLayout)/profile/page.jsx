@@ -53,12 +53,14 @@ const ProfilePage = () => {
 					<div className='relative h-24 w-24 shrink-0 overflow-hidden rounded-full ring-4 ring-secondary'>
 						{user.image ? (
 							<Image
-								src={user.image}
-								alt={user.name}
-								fill
-								sizes='96px'
-								className='object-cover'
-							/>
+                                 src={
+                                   user.image?.startsWith("http")
+                                     ? user.image
+                                     : "/default-avatar.png"
+                                 }
+                                 alt={user.name}
+                                 fill
+                            />
 						) : (
 							<div className='flex h-full w-full items-center justify-center bg-secondary text-primary'>
 								<UserRound size={36} />

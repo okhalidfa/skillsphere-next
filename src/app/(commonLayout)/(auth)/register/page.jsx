@@ -5,7 +5,7 @@ export const metadata = {
 }
 
 const RegisterPage = () => {
-	return <RegisterForm />
+	return <RegisterForm   />
 }
 
 export default RegisterPage
