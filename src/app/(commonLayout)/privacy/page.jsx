@@ -4,7 +4,7 @@ const sections = [
 		body: 'When you register, we collect your name, email address, and an optional profile photo URL. If you sign in with Google, we receive your name, email, and profile picture from your Google account.',
 	},
 	{
-		title: '2. How We Use Your Information',
+		title: '2. How We  Use Your Information',
 		body: 'We use your information to create and manage your account, let you log in securely, personalize your profile, and improve the courses and experience we offer.',
 	},
 	{
