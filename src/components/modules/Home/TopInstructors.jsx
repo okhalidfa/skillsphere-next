@@ -1,15 +1,9 @@
 import Image from 'next/image'
 import { Star, Users } from 'lucide-react'
+import { getInstructors } from '@/lib/data'
 
 const TopInstructors = async () => {
-	const res = await fetch(
-		`${process.env.NEXT_PUBLIC_BASE_URL}/instructors.json`,
-		{
-			cache: 'no-store',
-		},
-	)
-
-	const instructors = await res.json()
+	const instructors = await getInstructors()
 
 	return (
 		<section id='top-instructors' className='py-20 bg-background text-foreground transition-colors duration-300'>

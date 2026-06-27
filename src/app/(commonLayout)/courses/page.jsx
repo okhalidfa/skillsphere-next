@@ -1,11 +1,8 @@
+import { getCourses } from '@/lib/data'
 import CoursesExplorer from '@/components/modules/Courses/CoursesExplorer'
 
 const CoursesPage = async () => {
-	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
-		cache: 'no-store',
-	})
-
-	const courses = await res.json()
+	const courses = await getCourses()
 
 	return <CoursesExplorer courses={courses} />
 }

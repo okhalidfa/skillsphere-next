@@ -1,11 +1,8 @@
+import { getCourses } from '@/lib/data'
 import CourseCard from '../Shared/CourseCard'
 
 const PopularCourses = async () => {
-	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
-		cache: 'no-store',
-	})
-
-	const courses = await res.json()
+	const courses = await getCourses()
 
 	const topRated = [...courses]
 		.sort((a, b) => b.rating - a.rating)

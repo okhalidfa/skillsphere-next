@@ -2,6 +2,7 @@ import { headers } from 'next/headers'
 import { redirect, notFound } from 'next/navigation'
 
 import { auth } from '@/lib/auth'
+import { getCourses, getInstructors } from '@/lib/data'
 import CourseDetails from '@/components/modules/SingleCourse/CourseDetails'
 
 const CourseDetailsPage = async ({ params }) => {
@@ -16,17 +17,10 @@ const CourseDetailsPage = async ({ params }) => {
 		redirect(`/login?redirect=/courses/${id}`)
 	}
 
-	const [coursesRes, instructorsRes] = await Promise.all([
-		fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
-			cache: 'no-store',
-		}),
-		fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/instructors.json`, {
-			cache: 'no-store',
-		}),
+	const [courses, instructors] = await Promise.all([
+		getCourses(),
+		getInstructors(),
 	])
-
-	const courses = await coursesRes.json()
-	const instructors = await instructorsRes.json()
 
 	const course = courses.find((c) => String(c.id) === String(id))
 
