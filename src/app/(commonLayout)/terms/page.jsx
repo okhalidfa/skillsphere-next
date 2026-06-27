@@ -8,7 +8,7 @@ const sections = [
 		body: 'You may browse courses, create an account, and enroll in skill-based programs such as Web Development, Design, Marketing, and more. You agree to provide accurate information when registering.',
 	},
 	{
-		title: '3. Account Responsibility',
+		title: '3. Account Responsibility'  ,
 		body: 'You are responsible for keeping your login credentials secure and for any activity that happens under your account.',
 	},
 	{
