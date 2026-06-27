@@ -135,3 +135,4 @@ Remember to add the same environment variables to your hosting provider's dashbo
 - Email verification and "forgot password" flows are intentionally **not** implemented, per the assignment spec.
 - Course images use [picsum.photos](https://picsum.photos) and instructor avatars use [pravatar.cc](https://pravatar.cc) as free placeholder image services — swap these out in `public/data.json` / `public/instructors.json` for real course media.
 - Enrollment is a front-end demo action (toast + UI state) — no payment flow is included, since the spec doesn't require monetization.
+- Server Components read `public/data.json` and `public/instructors.json` directly from disk (`src/lib/data.js`) rather than fetching them over HTTP, so the app works even before `NEXT_PUBLIC_BASE_URL` is configured. The Trending Courses carousel still fetches `/data.json` client-side with a relative path, which works in any browser without configuration.
