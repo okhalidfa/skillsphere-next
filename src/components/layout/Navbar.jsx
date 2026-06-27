@@ -190,17 +190,15 @@ const Navbar = () => {
 					{/* ── MOBILE: Hamburger Dropdown ── */}
 					<div className='md:hidden'>
 						<Dropdown>
-							<Dropdown.Trigger>
-								<Button
-									isIconOnly
-									size='sm'
-									variant='flat'
-									aria-label='Open navigation menu'
-									className='border border-border bg-secondary text-foreground'
-								>
-									<Menu />
-								</Button>
-							</Dropdown.Trigger>
+							<Button
+								isIconOnly
+								size='sm'
+								variant='flat'
+								aria-label='Open navigation menu'
+								className='border border-border bg-secondary text-foreground'
+							>
+								<Menu />
+							</Button>
 
 							<Dropdown.Popover className='w-full mt-5'>
 								<Dropdown.Menu aria-label='Navigation menu'>
