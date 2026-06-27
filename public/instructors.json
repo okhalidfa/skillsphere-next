@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "title": "Full-Stack Web Development Instructor",
+    "image": "https://i.pravatar.cc/300?img=12",
+    "bio": "John has spent over 9 years building production web apps and has taught full-stack development to thousands of career-changers, with a focus on practical, project-based learning.",
+    "yearsExperience": 9,
+    "studentsTaught": 18400,
+    "expertise": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sarah Chen",
+    "title": "UI/UX & Product Design Instructor",
+    "image": "https://i.pravatar.cc/300?img=47",
+    "bio": "Sarah is a former product design lead at two design agencies. She teaches design systems, prototyping, and visual fundamentals through hands-on studio-style lessons.",
+    "yearsExperience": 8,
+    "studentsTaught": 14250,
+    "expertise": [
+      "UI Design",
+      "UX Research",
+      "Figma"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "title": "Data Science & AI Instructor",
+    "image": "https://i.pravatar.cc/300?img=65",
+    "bio": "Elena holds a master's in applied statistics and previously worked as a data scientist in fintech. She breaks down machine learning into approachable, math-light lessons.",
+    "yearsExperience": 10,
+    "studentsTaught": 21100,
+    "expertise": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Michael Carter",
+    "title": "Digital Marketing & Growth Instructor",
+    "image": "https://i.pravatar.cc/300?img=33",
+    "bio": "Michael has run growth marketing for early-stage startups and now teaches practical, no-fluff marketing strategy, social growth, and personal branding.",
+    "yearsExperience": 7,
+    "studentsTaught": 16800,
+    "expertise": [
+      "SEO",
+      "Social Media",
+      "Branding"
+    ]
+  }
+]

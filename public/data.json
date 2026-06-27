@@ -1,0 +1,480 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch \u2014 HTML, CSS, JavaScript, React, and Node.js \u2014 by building real projects from day one.",
+    "image": "https://picsum.photos/seed/web-dev-bootcamp/700/500",
+    "category": "Development",
+    "tag": "Bestseller",
+    "students": 5240,
+    "isTrending": false,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Build responsive websites with HTML5, CSS3 and modern layout techniques",
+      "Write clean, modern JavaScript (ES6+) and understand the DOM",
+      "Create dynamic single-page apps with React",
+      "Build a simple REST API with Node.js and Express"
+    ],
+    "requirements": [
+      "A computer with internet access",
+      "No prior coding experience required",
+      "Willingness to practice by building projects"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: HTML & CSS Foundations",
+        "duration": "3h 20m"
+      },
+      {
+        "title": "Module 2: JavaScript Fundamentals",
+        "duration": "4h 45m"
+      },
+      {
+        "title": "Module 3: The Modern DOM & Events",
+        "duration": "2h 30m"
+      },
+      {
+        "title": "Module 4: Intro to React",
+        "duration": "5h 10m"
+      },
+      {
+        "title": "Module 5: Building APIs with Node & Express",
+        "duration": "4h 15m"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "React & Next.js From Zero to Hero",
+    "instructor": "John Doe",
+    "duration": "26 hours",
+    "rating": 5.0,
+    "level": "Advanced",
+    "description": "Master modern React and the Next.js App Router by building production-grade, full-stack applications with authentication and deployment.",
+    "image": "https://picsum.photos/seed/react-nextjs-hero/700/500",
+    "category": "Development",
+    "tag": "Top Rated",
+    "students": 3890,
+    "isTrending": true,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Architect scalable apps with the Next.js App Router",
+      "Implement authentication and protected routes",
+      "Work with server components, client components, and server actions",
+      "Deploy a production app to the cloud"
+    ],
+    "requirements": [
+      "Solid understanding of JavaScript and basic React",
+      "Familiarity with the command line",
+      "A code editor such as VS Code"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: App Router Deep Dive",
+        "duration": "4h 00m"
+      },
+      {
+        "title": "Module 2: Server vs Client Components",
+        "duration": "3h 30m"
+      },
+      {
+        "title": "Module 3: Authentication & Protected Routes",
+        "duration": "5h 20m"
+      },
+      {
+        "title": "Module 4: Data Fetching & Server Actions",
+        "duration": "5h 00m"
+      },
+      {
+        "title": "Module 5: Styling with Tailwind CSS",
+        "duration": "3h 45m"
+      },
+      {
+        "title": "Module 6: Deployment & Performance",
+        "duration": "4h 25m"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Backend Engineering with Node.js & APIs",
+    "instructor": "John Doe",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Go beyond the basics and learn how to design, secure, and scale REST APIs with Node.js, Express, and MongoDB.",
+    "image": "https://picsum.photos/seed/backend-node-api/700/500",
+    "category": "Development",
+    "tag": "Popular",
+    "students": 2210,
+    "isTrending": false,
+    "isNew": true,
+    "whatYouWillLearn": [
+      "Design clean, RESTful API architecture",
+      "Secure endpoints with authentication & authorization",
+      "Model data effectively with MongoDB",
+      "Write automated tests for your APIs"
+    ],
+    "requirements": [
+      "Basic JavaScript knowledge",
+      "Comfortable using the terminal",
+      "Node.js installed locally"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Express Fundamentals",
+        "duration": "3h 10m"
+      },
+      {
+        "title": "Module 2: MongoDB & Data Modeling",
+        "duration": "3h 50m"
+      },
+      {
+        "title": "Module 3: Auth & Security Best Practices",
+        "duration": "4h 00m"
+      },
+      {
+        "title": "Module 4: Testing & Error Handling",
+        "duration": "3h 30m"
+      },
+      {
+        "title": "Module 5: Deploying Your API",
+        "duration": "3h 30m"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Advanced UI/UX Design Masterclass",
+    "instructor": "Sarah Chen",
+    "duration": "16 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Design beautiful, usable interfaces with confidence \u2014 covering design systems, prototyping, and user research methods used by top product teams.",
+    "image": "https://picsum.photos/seed/uiux-masterclass/700/500",
+    "category": "Design",
+    "tag": "Top Rated",
+    "students": 4120,
+    "isTrending": false,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Build a scalable design system from scratch",
+      "Run lightweight user research and usability tests",
+      "Prototype interactive flows in Figma",
+      "Hand off designs cleanly to developers"
+    ],
+    "requirements": [
+      "Basic familiarity with any design tool",
+      "An eye for detail and willingness to iterate",
+      "Figma (free plan is fine)"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Design Systems & Tokens",
+        "duration": "3h 00m"
+      },
+      {
+        "title": "Module 2: User Research Fundamentals",
+        "duration": "2h 40m"
+      },
+      {
+        "title": "Module 3: Wireframing to High-Fidelity",
+        "duration": "3h 30m"
+      },
+      {
+        "title": "Module 4: Interactive Prototyping",
+        "duration": "3h 20m"
+      },
+      {
+        "title": "Module 5: Developer Handoff",
+        "duration": "3h 30m"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Graphic Design Fundamentals",
+    "instructor": "Sarah Chen",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn the core principles of color, typography, and layout, and start creating professional-looking graphics for web and print.",
+    "image": "https://picsum.photos/seed/graphic-design-fund/700/500",
+    "category": "Design",
+    "tag": "Popular",
+    "students": 3015,
+    "isTrending": true,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Apply color theory and typography principles confidently",
+      "Build clean, balanced layouts",
+      "Create social media graphics and simple branding assets",
+      "Understand file formats and export settings"
+    ],
+    "requirements": [
+      "No design experience needed",
+      "Access to any design tool (free options work fine)"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Color Theory Basics",
+        "duration": "2h 10m"
+      },
+      {
+        "title": "Module 2: Typography Essentials",
+        "duration": "2h 30m"
+      },
+      {
+        "title": "Module 3: Layout & Composition",
+        "duration": "2h 50m"
+      },
+      {
+        "title": "Module 4: Practical Projects",
+        "duration": "4h 30m"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Python for Data Science",
+    "instructor": "Elena Rodriguez",
+    "duration": "22 hours",
+    "rating": 4.95,
+    "level": "Intermediate",
+    "description": "Use Python, Pandas, and NumPy to clean, analyze, and visualize real-world datasets \u2014 a practical foundation for any data role.",
+    "image": "https://picsum.photos/seed/python-data-science/700/500",
+    "category": "Data Science",
+    "tag": "Top Rated",
+    "students": 6310,
+    "isTrending": false,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Manipulate and clean data efficiently with Pandas",
+      "Perform statistical analysis with NumPy",
+      "Visualize insights with Matplotlib and Seaborn",
+      "Work confidently with real, messy datasets"
+    ],
+    "requirements": [
+      "Basic programming logic (any language)",
+      "Python installed locally or use of an online notebook"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Python Refresher for Data",
+        "duration": "3h 00m"
+      },
+      {
+        "title": "Module 2: Pandas Deep Dive",
+        "duration": "5h 20m"
+      },
+      {
+        "title": "Module 3: NumPy & Statistics",
+        "duration": "4h 10m"
+      },
+      {
+        "title": "Module 4: Data Visualization",
+        "duration": "4h 40m"
+      },
+      {
+        "title": "Module 5: Capstone Data Project",
+        "duration": "4h 50m"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning A-Z",
+    "instructor": "Elena Rodriguez",
+    "duration": "30 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "A complete, hands-on introduction to machine learning \u2014 from regression and classification to neural networks \u2014 with real projects, not just theory.",
+    "image": "https://picsum.photos/seed/machine-learning-az/700/500",
+    "category": "Data Science",
+    "tag": "Bestseller",
+    "students": 5480,
+    "isTrending": true,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Understand and apply core ML algorithms",
+      "Build and evaluate classification and regression models",
+      "Get a practical intro to neural networks",
+      "Avoid common pitfalls like overfitting and data leakage"
+    ],
+    "requirements": [
+      "Comfortable with Python basics",
+      "High-school level math (refreshers included)"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: ML Foundations & Workflow",
+        "duration": "4h 00m"
+      },
+      {
+        "title": "Module 2: Regression Models",
+        "duration": "5h 30m"
+      },
+      {
+        "title": "Module 3: Classification Models",
+        "duration": "6h 00m"
+      },
+      {
+        "title": "Module 4: Model Evaluation & Tuning",
+        "duration": "5h 00m"
+      },
+      {
+        "title": "Module 5: Intro to Neural Networks",
+        "duration": "5h 30m"
+      },
+      {
+        "title": "Module 6: End-to-End Capstone Project",
+        "duration": "4h 00m"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Digital Marketing Strategy 2026",
+    "instructor": "Michael Carter",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Build a complete digital marketing strategy covering SEO, content, email, and paid ads \u2014 updated for what's actually working in 2026.",
+    "image": "https://picsum.photos/seed/digital-marketing-2026/700/500",
+    "category": "Marketing",
+    "tag": "New",
+    "students": 1980,
+    "isTrending": false,
+    "isNew": true,
+    "whatYouWillLearn": [
+      "Build a full-funnel digital marketing strategy",
+      "Run basic SEO audits and on-page optimization",
+      "Plan content and email campaigns that convert",
+      "Understand the fundamentals of paid ad platforms"
+    ],
+    "requirements": [
+      "No prior marketing experience needed",
+      "Interest in growing a brand, product, or business"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Strategy & Funnel Basics",
+        "duration": "2h 30m"
+      },
+      {
+        "title": "Module 2: SEO Fundamentals",
+        "duration": "3h 00m"
+      },
+      {
+        "title": "Module 3: Content & Email Marketing",
+        "duration": "3h 30m"
+      },
+      {
+        "title": "Module 4: Intro to Paid Advertising",
+        "duration": "3h 00m"
+      },
+      {
+        "title": "Module 5: Measuring & Optimizing Campaigns",
+        "duration": "2h 00m"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Social Media Marketing Mastery",
+    "instructor": "Michael Carter",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Grow an engaged audience and turn it into measurable results with platform-specific strategies for Instagram, TikTok, and LinkedIn.",
+    "image": "https://picsum.photos/seed/social-media-mastery/700/500",
+    "category": "Marketing",
+    "tag": "Trending",
+    "students": 2740,
+    "isTrending": true,
+    "isNew": false,
+    "whatYouWillLearn": [
+      "Create platform-specific content strategies",
+      "Grow and engage an audience organically",
+      "Use analytics to double down on what works",
+      "Plan a sustainable, repeatable content calendar"
+    ],
+    "requirements": [
+      "A social media account on any platform",
+      "Basic familiarity with content creation"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Platform Strategy Overview",
+        "duration": "2h 20m"
+      },
+      {
+        "title": "Module 2: Content That Converts",
+        "duration": "3h 30m"
+      },
+      {
+        "title": "Module 3: Growth & Engagement Tactics",
+        "duration": "3h 40m"
+      },
+      {
+        "title": "Module 4: Analytics & Iteration",
+        "duration": "2h 50m"
+      },
+      {
+        "title": "Module 5: Building a Content Calendar",
+        "duration": "2h 40m"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Freelancing & Personal Branding",
+    "instructor": "Michael Carter",
+    "duration": "10 hours",
+    "rating": 4.55,
+    "level": "Beginner",
+    "description": "Turn your new skills into income \u2014 learn how to find clients, price your work, and build a personal brand that attracts opportunities.",
+    "image": "https://picsum.photos/seed/freelancing-branding/700/500",
+    "category": "Business",
+    "tag": "New",
+    "students": 1340,
+    "isTrending": false,
+    "isNew": true,
+    "whatYouWillLearn": [
+      "Define your niche and personal brand positioning",
+      "Find and pitch your first freelance clients",
+      "Price your services with confidence",
+      "Build a simple portfolio that converts"
+    ],
+    "requirements": [
+      "At least one marketable skill (design, dev, writing, etc.)",
+      "Willingness to put yourself out there"
+    ],
+    "curriculum": [
+      {
+        "title": "Module 1: Finding Your Niche",
+        "duration": "1h 50m"
+      },
+      {
+        "title": "Module 2: Building a Portfolio",
+        "duration": "2h 30m"
+      },
+      {
+        "title": "Module 3: Finding & Pitching Clients",
+        "duration": "2h 40m"
+      },
+      {
+        "title": "Module 4: Pricing & Contracts",
+        "duration": "1h 50m"
+      },
+      {
+        "title": "Module 5: Growing Your Personal Brand",
+        "duration": "1h 10m"
+      }
+    ]
+  }
+]
