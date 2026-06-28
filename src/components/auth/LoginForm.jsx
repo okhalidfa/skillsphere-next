@@ -62,15 +62,9 @@ const LoginForm = () => {
 	}
 
 	const handleGoogleLogin = async () => {
-		setIsGoogleLoading(true)
-
-		await authClient.signIn.social({
-			provider: 'google',
-			callbackURL: redirectTo,
-			errorCallbackURL: '/login',
-		})
-
-		setIsGoogleLoading(false)
+		const data = await authClient.signIn.social({
+          provider: "google",
+        });
 	}
 
 	return (
