@@ -8,7 +8,7 @@ const CourseImage = ({ image, title, tag }) => {
 	const handlePreview = () => {
 		toast.info('🎬 Course preview coming soon!', {
 			position: 'top-right',
-			autoClose: 3000,
+			autoClose: 1000,
 		})
 	}
 

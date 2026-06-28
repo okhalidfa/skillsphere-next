@@ -2,7 +2,7 @@ import { toast } from 'react-toastify'
 
 const defaultConfig = {
 	position: 'top-right',
-	autoClose: 4000,
+	autoClose: 1000,
 	hideProgressBar: false,
 	closeOnClick: true,
 	pauseOnHover: true,
@@ -17,7 +17,7 @@ const defaultConfig = {
 export const showSuccessToast = (message, options = {}) => {
 	toast.success(message, {
 		...defaultConfig,
-		autoClose: 3000,
+		autoClose: 1000,
 		...options,
 	})
 }
@@ -54,7 +54,7 @@ export const showWarningToast = (message, options = {}) => {
 export const showInfoToast = (message, options = {}) => {
 	toast.info(message, {
 		...defaultConfig,
-		autoClose: 3000,
+		autoClose: 1000,
 		...options,
 	})
 }

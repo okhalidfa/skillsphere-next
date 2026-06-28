@@ -51,7 +51,7 @@ const RegisterForm = () => {
 				onSuccess: () => {
 					toast.success('Account created! Please log in. 🎉', {
 						position: 'top-right',
-						autoClose: 3000,
+						autoClose: 1000,
 					})
 
 					// Per spec: successful registration takes the user to the login page.
@@ -62,7 +62,7 @@ const RegisterForm = () => {
 						ctx?.error?.message || 'Could not create your account',
 						{
 							position: 'top-right',
-							autoClose: 4000,
+							autoClose: 1000,
 						},
 					)
 				},

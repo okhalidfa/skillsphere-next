@@ -40,7 +40,7 @@ const LoginForm = () => {
 				onSuccess: () => {
 					toast.success('Welcome back! 🎉', {
 						position: 'top-right',
-						autoClose: 3000,
+						autoClose: 1000,
 					})
 
 					// Per spec: successful login takes the user to the home page,
@@ -51,7 +51,7 @@ const LoginForm = () => {
 				onError: (ctx) => {
 					toast.error(ctx?.error?.message || 'Invalid email or password', {
 						position: 'top-right',
-						autoClose: 4000,
+						autoClose: 1000,
 					})
 				},
 				onResponse: () => {

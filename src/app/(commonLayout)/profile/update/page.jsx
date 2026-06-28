@@ -51,7 +51,7 @@ const UpdateProfilePage = () => {
 				onSuccess: () => {
 					toast.success('Profile updated successfully! ✅', {
 						position: 'top-right',
-						autoClose: 3000,
+						autoClose: 1000,
 					})
 					router.push('/profile')
 					router.refresh()
@@ -59,7 +59,7 @@ const UpdateProfilePage = () => {
 				onError: (ctx) => {
 					toast.error(ctx?.error?.message || 'Could not update profile', {
 						position: 'top-right',
-						autoClose: 4000,
+						autoClose: 1000,
 					})
 				},
 				onResponse: () => {

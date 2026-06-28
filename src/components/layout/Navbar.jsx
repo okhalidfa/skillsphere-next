@@ -45,7 +45,7 @@ const Navbar = () => {
 				onSuccess: () => {
 					toast.success('See you soon! 👋 Logged out successfully', {
 						position: 'top-right',
-						autoClose: 3000,
+						autoClose: 1000,
 					})
 
 					router.push('/')

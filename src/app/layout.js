@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
 
 					<ToastContainer
 						position='top-right'
-						autoClose={4000}
+						autoClose={1000}
 						newestOnTop
 						theme='colored'
 					/>

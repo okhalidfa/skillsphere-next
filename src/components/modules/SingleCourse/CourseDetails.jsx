@@ -24,7 +24,7 @@ const CourseDetails = ({ course, instructor }) => {
 
 			toast.success(`🎉 Enrolled in "${course.title}"!`, {
 				position: 'top-right',
-				autoClose: 3000,
+				autoClose: 1000,
 			})
 		}, 900)
 	}
