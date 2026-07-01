@@ -17,12 +17,12 @@ export const auth = betterAuth({
 	secret: process.env.BETTER_AUTH_SECRET,
 	baseURL: process.env.BETTER_AUTH_URL,
 
-	emailAndPassword: {
+	emailAndPassword:    {
 		enabled: true,
 	},
 
 	// Google only, as required by the assignment spec.
-	socialProviders: {
+	socialProviders:      {
 		google: {
 			clientId: process.env.GOOGLE_CLIENT_ID,
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET,
